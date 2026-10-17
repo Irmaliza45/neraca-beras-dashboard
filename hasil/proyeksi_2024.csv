@@ -1,0 +1,13 @@
+Bulan_Singkat,Prediksi_Produksi,Batas_Bawah_95,Batas_Atas_95,Prediksi_Konsumsi,Prediksi_Surplus,Status,Peluang_Defisit_%,Kategori
+Jan,7785.0,2729.0,20133.0,12030.0,-4245.0,Defisit,84.0,Rawan
+Feb,53721.0,18833.0,138933.0,12055.0,41666.0,Surplus,0.0,Aman
+Mar,135332.0,47444.0,349994.0,12081.0,123251.0,Surplus,0.0,Aman
+Apr,28666.0,10050.0,74135.0,12107.0,16559.0,Surplus,5.0,Aman
+Mei,13559.0,4753.0,35066.0,12133.0,1426.0,Surplus,45.0,Waspada
+Jun,68603.0,24051.0,177420.0,12158.0,56444.0,Surplus,0.0,Aman
+Jul,31162.0,10925.0,80590.0,12184.0,18978.0,Surplus,3.0,Aman
+Agu,6696.0,2347.0,17316.0,12210.0,-5514.0,Defisit,91.0,Rawan
+Sep,12452.0,4365.0,32203.0,12236.0,216.0,Surplus,53.0,Rawan
+Okt,18337.0,6429.0,47423.0,12262.0,6076.0,Surplus,23.0,Waspada
+Nov,14976.0,5250.0,38731.0,12287.0,2689.0,Surplus,38.0,Waspada
+Des,10869.0,3810.0,28110.0,12313.0,-1444.0,Defisit,64.0,Rawan
