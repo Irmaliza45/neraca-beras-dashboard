@@ -1,0 +1,2236 @@
+{
+ "sidik": "5f96d8f0136d6d2d161089f33a7f7710",
+ "versi": "p,q in 0..2; P,Q in 0..1; d=0; D=1; s=12; tambahan luas [2]; v1",
+ "kand_prod": [
+  {
+   "Model": "(1,0,0)(0,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": -86.8322677072,
+   "BIC": -83.2981062161,
+   "LjungBox_p": 0.4866255485,
+   "Semua_signifikan": true,
+   "p_maks": 1.05e-07,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,2)(0,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": -86.7119369082,
+   "BIC": -80.8216677565,
+   "LjungBox_p": 0.3194986095,
+   "Semua_signifikan": false,
+   "p_maks": 0.9029659016,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,2)(0,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 6,
+   "AIC": -86.3397859319,
+   "BIC": -79.2714629498,
+   "LjungBox_p": 0.3740546672,
+   "Semua_signifikan": false,
+   "p_maks": 0.7304018635,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,0)(1,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": -85.6914936088,
+   "BIC": -80.9792782874,
+   "LjungBox_p": 0.423682671,
+   "Semua_signifikan": false,
+   "p_maks": 0.4413029914,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,0)(0,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": -85.4540672721,
+   "BIC": -80.7418519507,
+   "LjungBox_p": 0.4055944314,
+   "Semua_signifikan": false,
+   "p_maks": 0.6621076816,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,0)(0,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": -84.9513607053,
+   "BIC": -80.2391453839,
+   "LjungBox_p": 0.3986680925,
+   "Semua_signifikan": false,
+   "p_maks": 0.8992033431,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,1)(0,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": -84.9070650519,
+   "BIC": -80.1948497305,
+   "LjungBox_p": 0.3881754584,
+   "Semua_signifikan": false,
+   "p_maks": 0.9227959365,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,2)(1,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 6,
+   "AIC": -84.8305856386,
+   "BIC": -77.7622626566,
+   "LjungBox_p": 0.1728815726,
+   "Semua_signifikan": false,
+   "p_maks": 0.9165292847,
+   "Konvergen": false
+  },
+  {
+   "Model": "(1,0,2)(0,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 6,
+   "AIC": -84.7324633729,
+   "BIC": -77.6641403908,
+   "LjungBox_p": 0.1736562932,
+   "Semua_signifikan": false,
+   "p_maks": 0.9118033603,
+   "Konvergen": false
+  },
+  {
+   "Model": "(1,0,0)(1,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": -83.7779868284,
+   "BIC": -77.8877176767,
+   "LjungBox_p": 0.2738057353,
+   "Semua_signifikan": false,
+   "p_maks": 0.9741973316,
+   "Konvergen": false
+  },
+  {
+   "Model": "(2,0,0)(1,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": -83.7241516866,
+   "BIC": -77.8338825349,
+   "LjungBox_p": 0.2478146551,
+   "Semua_signifikan": false,
+   "p_maks": 0.9118846097,
+   "Konvergen": false
+  },
+  {
+   "Model": "(1,0,1)(1,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": -83.7116141041,
+   "BIC": -77.8213449523,
+   "LjungBox_p": 0.2564222656,
+   "Semua_signifikan": false,
+   "p_maks": 0.9478401049,
+   "Konvergen": false
+  },
+  {
+   "Model": "(2,0,0)(0,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": -83.4339676499,
+   "BIC": -77.5436984982,
+   "LjungBox_p": 0.2649369774,
+   "Semua_signifikan": false,
+   "p_maks": 0.9924444774,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,1)(0,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": -83.4210032319,
+   "BIC": -77.5307340802,
+   "LjungBox_p": 0.2702741009,
+   "Semua_signifikan": false,
+   "p_maks": 0.9748138412,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,2)(0,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 7,
+   "AIC": -83.0359443281,
+   "BIC": -74.7895675157,
+   "LjungBox_p": 0.078637011,
+   "Semua_signifikan": false,
+   "p_maks": 0.8369660336,
+   "Konvergen": false
+  },
+  {
+   "Model": "(2,0,1)(0,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": -82.8329884385,
+   "BIC": -76.9427192868,
+   "LjungBox_p": 0.2171874859,
+   "Semua_signifikan": false,
+   "p_maks": 0.9973067402,
+   "Konvergen": false
+  },
+  {
+   "Model": "(1,0,2)(1,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 7,
+   "AIC": -82.8070185634,
+   "BIC": -74.560641751,
+   "LjungBox_p": 0.0650522981,
+   "Semua_signifikan": false,
+   "p_maks": 0.9997779941,
+   "Konvergen": false
+  },
+  {
+   "Model": "(2,0,2)(1,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 7,
+   "AIC": -82.7699582084,
+   "BIC": -74.523581396,
+   "LjungBox_p": 0.2322300049,
+   "Semua_signifikan": false,
+   "p_maks": 0.8002854493,
+   "Konvergen": false
+  },
+  {
+   "Model": "(2,0,2)(1,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 8,
+   "AIC": -82.0549718673,
+   "BIC": -72.6305412245,
+   "LjungBox_p": 0.1199223507,
+   "Semua_signifikan": false,
+   "p_maks": 0.9892841931,
+   "Konvergen": false
+  },
+  {
+   "Model": "(2,0,1)(1,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 6,
+   "AIC": -81.8933775149,
+   "BIC": -74.8250545328,
+   "LjungBox_p": 0.1163714618,
+   "Semua_signifikan": false,
+   "p_maks": 0.9111669976,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,0)(1,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 6,
+   "AIC": -81.7181791354,
+   "BIC": -74.6498561533,
+   "LjungBox_p": 0.1191012271,
+   "Semua_signifikan": false,
+   "p_maks": 0.9978856952,
+   "Konvergen": false
+  },
+  {
+   "Model": "(1,0,1)(1,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 6,
+   "AIC": -81.701308758,
+   "BIC": -74.6329857759,
+   "LjungBox_p": 0.128269107,
+   "Semua_signifikan": false,
+   "p_maks": 0.989607588,
+   "Konvergen": false
+  },
+  {
+   "Model": "(2,0,1)(0,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 6,
+   "AIC": -81.5556302204,
+   "BIC": -74.4873072383,
+   "LjungBox_p": 0.1157126236,
+   "Semua_signifikan": false,
+   "p_maks": 0.9398676033,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,1)(1,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 7,
+   "AIC": -80.1059500713,
+   "BIC": -71.8595732589,
+   "LjungBox_p": 0.0325895771,
+   "Semua_signifikan": false,
+   "p_maks": 0.9643933474,
+   "Konvergen": false
+  },
+  {
+   "Model": "(0,0,2)(0,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": -76.6733480771,
+   "BIC": -71.9611327557,
+   "LjungBox_p": 0.240878999,
+   "Semua_signifikan": false,
+   "p_maks": 0.1710838013,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,2)(1,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": -74.7446825706,
+   "BIC": -68.8544134188,
+   "LjungBox_p": 0.1565840677,
+   "Semua_signifikan": false,
+   "p_maks": 0.8967408308,
+   "Konvergen": false
+  },
+  {
+   "Model": "(0,0,2)(0,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": -74.7134257278,
+   "BIC": -68.8231565761,
+   "LjungBox_p": 0.1518977022,
+   "Semua_signifikan": false,
+   "p_maks": 0.9011093408,
+   "Konvergen": false
+  },
+  {
+   "Model": "(0,0,1)(0,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": -73.5476584266,
+   "BIC": -70.0134969356,
+   "LjungBox_p": 0.5194351875,
+   "Semua_signifikan": true,
+   "p_maks": 2.02929e-05,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,2)(1,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 6,
+   "AIC": -72.7768495029,
+   "BIC": -65.7085265208,
+   "LjungBox_p": 0.0769013634,
+   "Semua_signifikan": false,
+   "p_maks": 0.98632854,
+   "Konvergen": false
+  },
+  {
+   "Model": "(0,0,1)(1,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": -71.5676459571,
+   "BIC": -66.8554306357,
+   "LjungBox_p": 0.3740406016,
+   "Semua_signifikan": false,
+   "p_maks": 0.9299714541,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,1)(0,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": -71.5666388948,
+   "BIC": -66.8544235734,
+   "LjungBox_p": 0.3777440716,
+   "Semua_signifikan": false,
+   "p_maks": 0.9285905638,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,1)(1,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": -69.5705066721,
+   "BIC": -63.6802375203,
+   "LjungBox_p": 0.244330206,
+   "Semua_signifikan": false,
+   "p_maks": 0.9995147745,
+   "Konvergen": false
+  },
+  {
+   "Model": "(0,0,0)(0,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 2,
+   "AIC": -58.6374415862,
+   "BIC": -56.2813339255,
+   "LjungBox_p": 0.0085824667,
+   "Semua_signifikan": true,
+   "p_maks": 0.0,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,0)(1,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": -56.6447087809,
+   "BIC": -53.1105472898,
+   "LjungBox_p": 0.0040216093,
+   "Semua_signifikan": false,
+   "p_maks": 0.9694828732,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,0)(0,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": -56.644708654,
+   "BIC": -53.110547163,
+   "LjungBox_p": 0.0040247789,
+   "Semua_signifikan": false,
+   "p_maks": 0.9697819645,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,0)(1,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": -54.6447080396,
+   "BIC": -49.9324927182,
+   "LjungBox_p": 0.0017123768,
+   "Semua_signifikan": false,
+   "p_maks": 0.9692846393,
+   "Konvergen": true
+  }
+ ],
+ "kand_luas": [
+  {
+   "Model": "(2,0,2)(1,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 6,
+   "AIC": 33.2312066158,
+   "BIC": 40.2995295979,
+   "LjungBox_p": 0.0167779163,
+   "Semua_signifikan": false,
+   "p_maks": 0.9311111088,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,2)(0,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 6,
+   "AIC": 33.8013474319,
+   "BIC": 40.869670414,
+   "LjungBox_p": 0.0175766051,
+   "Semua_signifikan": false,
+   "p_maks": 0.9878305684,
+   "Konvergen": false
+  },
+  {
+   "Model": "([2],0,0)(0,1,0)\u2081\u2082",
+   "order": [
+    [
+     2
+    ],
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 2,
+   "AIC": 35.0065829786,
+   "BIC": 37.3626906393,
+   "LjungBox_p": 0.4029751995,
+   "Semua_signifikan": true,
+   "p_maks": 0.0418290891,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,2)(1,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 7,
+   "AIC": 35.2173587214,
+   "BIC": 43.4637355338,
+   "LjungBox_p": 0.0176882604,
+   "Semua_signifikan": false,
+   "p_maks": 0.9993683635,
+   "Konvergen": false
+  },
+  {
+   "Model": "([2],0,0)(1,1,0)\u2081\u2082",
+   "order": [
+    [
+     2
+    ],
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 36.3359844566,
+   "BIC": 39.8701459476,
+   "LjungBox_p": 0.1360997197,
+   "Semua_signifikan": false,
+   "p_maks": 0.3680709677,
+   "Konvergen": true
+  },
+  {
+   "Model": "([2],0,0)(0,1,1)\u2081\u2082",
+   "order": [
+    [
+     2
+    ],
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 36.3423483443,
+   "BIC": 39.8765098354,
+   "LjungBox_p": 0.1374264795,
+   "Semua_signifikan": false,
+   "p_maks": 0.4348543257,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,1)(0,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 36.635229331,
+   "BIC": 41.3474446524,
+   "LjungBox_p": 0.5355621242,
+   "Semua_signifikan": false,
+   "p_maks": 0.2218318318,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,0)(0,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 36.7820176445,
+   "BIC": 41.4942329659,
+   "LjungBox_p": 0.2105757242,
+   "Semua_signifikan": false,
+   "p_maks": 0.9378240531,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,0)(1,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 36.7876091798,
+   "BIC": 41.4998245012,
+   "LjungBox_p": 0.2459593634,
+   "Semua_signifikan": false,
+   "p_maks": 0.1640170889,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,1)(1,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": 36.8133933714,
+   "BIC": 42.7036625231,
+   "LjungBox_p": 0.334703388,
+   "Semua_signifikan": false,
+   "p_maks": 0.0576228484,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,0)(0,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 36.8869367619,
+   "BIC": 40.4210982529,
+   "LjungBox_p": 0.3110936033,
+   "Semua_signifikan": false,
+   "p_maks": 0.806465545,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,1)(0,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": 36.9492336915,
+   "BIC": 42.8395028433,
+   "LjungBox_p": 0.3285777986,
+   "Semua_signifikan": false,
+   "p_maks": 0.5009352668,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,2)(0,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 37.1380006951,
+   "BIC": 40.6721621862,
+   "LjungBox_p": 0.4893161202,
+   "Semua_signifikan": false,
+   "p_maks": 0.4682868938,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,2)(0,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 38.5122422845,
+   "BIC": 43.2244576059,
+   "LjungBox_p": 0.1864815429,
+   "Semua_signifikan": false,
+   "p_maks": 0.7120736435,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,2)(1,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 38.5588410537,
+   "BIC": 43.2710563751,
+   "LjungBox_p": 0.1958313827,
+   "Semua_signifikan": false,
+   "p_maks": 0.6913061084,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,2)(0,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": 38.632027038,
+   "BIC": 44.5222961898,
+   "LjungBox_p": 0.3400770111,
+   "Semua_signifikan": false,
+   "p_maks": 0.9733942783,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,0)(1,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": 38.7668364751,
+   "BIC": 44.6571056268,
+   "LjungBox_p": 0.1127106263,
+   "Semua_signifikan": false,
+   "p_maks": 0.9790059137,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,1)(1,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 6,
+   "AIC": 38.8078172998,
+   "BIC": 45.8761402819,
+   "LjungBox_p": 0.1385247892,
+   "Semua_signifikan": false,
+   "p_maks": 0.9550453434,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,0)(0,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 1,
+   "AIC": 38.8996127382,
+   "BIC": 40.0776665686,
+   "LjungBox_p": 0.1749353393,
+   "Semua_signifikan": true,
+   "p_maks": 0.0,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,1)(0,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 38.9083593132,
+   "BIC": 42.4425208043,
+   "LjungBox_p": 0.1923967625,
+   "Semua_signifikan": false,
+   "p_maks": 0.9902305762,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,2)(0,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 38.93917503,
+   "BIC": 43.6513903514,
+   "LjungBox_p": 0.3472362447,
+   "Semua_signifikan": false,
+   "p_maks": 0.7801237663,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,1)(1,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 39.2251372228,
+   "BIC": 42.7592987138,
+   "LjungBox_p": 0.2073254387,
+   "Semua_signifikan": false,
+   "p_maks": 0.0586484909,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,0)(0,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 2,
+   "AIC": 39.4400089814,
+   "BIC": 41.7961166421,
+   "LjungBox_p": 0.0561929721,
+   "Semua_signifikan": false,
+   "p_maks": 0.4141119179,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,0)(1,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 2,
+   "AIC": 39.4400093399,
+   "BIC": 41.7961170006,
+   "LjungBox_p": 0.0561944037,
+   "Semua_signifikan": false,
+   "p_maks": 0.2672476071,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,2)(0,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": 39.6907506922,
+   "BIC": 45.581019844,
+   "LjungBox_p": 0.117286166,
+   "Semua_signifikan": false,
+   "p_maks": 0.5914795689,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,2)(1,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": 39.8739929304,
+   "BIC": 45.7642620822,
+   "LjungBox_p": 0.1283694082,
+   "Semua_signifikan": false,
+   "p_maks": 0.6315365229,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,1)(0,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 39.9433777366,
+   "BIC": 43.4775392276,
+   "LjungBox_p": 0.1760031028,
+   "Semua_signifikan": false,
+   "p_maks": 0.3116501699,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,2)(1,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": 40.4363377806,
+   "BIC": 46.3266069323,
+   "LjungBox_p": 0.0911225039,
+   "Semua_signifikan": false,
+   "p_maks": 0.9886984004,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,0)(0,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 40.6006593276,
+   "BIC": 44.1348208187,
+   "LjungBox_p": 0.0599675246,
+   "Semua_signifikan": false,
+   "p_maks": 0.681888405,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,1)(0,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 2,
+   "AIC": 40.6473485733,
+   "BIC": 43.0034562339,
+   "LjungBox_p": 0.1645447372,
+   "Semua_signifikan": false,
+   "p_maks": 0.3954349297,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,0)(1,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 40.7726559191,
+   "BIC": 44.3068174102,
+   "LjungBox_p": 0.0619709043,
+   "Semua_signifikan": false,
+   "p_maks": 0.4856513009,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,1)(1,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 40.8436868428,
+   "BIC": 45.5559021642,
+   "LjungBox_p": 0.1116720509,
+   "Semua_signifikan": false,
+   "p_maks": 0.9956882936,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,0)(0,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 2,
+   "AIC": 40.8620190591,
+   "BIC": 43.2181267198,
+   "LjungBox_p": 0.1180637237,
+   "Semua_signifikan": false,
+   "p_maks": 0.8950280344,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,0)(1,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 41.4400091737,
+   "BIC": 44.9741706647,
+   "LjungBox_p": 0.0293075408,
+   "Semua_signifikan": false,
+   "p_maks": 0.9999992045,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,2)(1,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 6,
+   "AIC": 41.6021706803,
+   "BIC": 48.6704936624,
+   "LjungBox_p": 0.040127733,
+   "Semua_signifikan": false,
+   "p_maks": 0.9930929258,
+   "Konvergen": false
+  },
+  {
+   "Model": "(1,0,1)(0,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 41.6176850046,
+   "BIC": 46.329900326,
+   "LjungBox_p": 0.0541039304,
+   "Semua_signifikan": false,
+   "p_maks": 0.6189513744,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,1)(1,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 41.6262938501,
+   "BIC": 46.3385091715,
+   "LjungBox_p": 0.0543121111,
+   "Semua_signifikan": false,
+   "p_maks": 0.6058484467,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,0)(1,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 42.5806575228,
+   "BIC": 47.2928728442,
+   "LjungBox_p": 0.0291498728,
+   "Semua_signifikan": false,
+   "p_maks": 0.9962690958,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,1)(1,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": 43.5907471496,
+   "BIC": 49.4810163013,
+   "LjungBox_p": 0.0229097348,
+   "Semua_signifikan": false,
+   "p_maks": 0.9844056419,
+   "Konvergen": false
+  }
+ ],
+ "kand_uni": [
+  {
+   "Model": "(2,0,0)(1,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 33.9432988164,
+   "BIC": 38.6555141378,
+   "LjungBox_p": 0.2744072372,
+   "Semua_signifikan": true,
+   "p_maks": 0.041339034,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,1)(1,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": 34.3022995807,
+   "BIC": 40.1925687325,
+   "LjungBox_p": 0.3069723261,
+   "Semua_signifikan": false,
+   "p_maks": 0.1129403845,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,0)(0,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 34.3052856596,
+   "BIC": 39.017500981,
+   "LjungBox_p": 0.1954463926,
+   "Semua_signifikan": false,
+   "p_maks": 0.9346889312,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,0)(0,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 34.4906376746,
+   "BIC": 38.0247991656,
+   "LjungBox_p": 0.2852209925,
+   "Semua_signifikan": false,
+   "p_maks": 0.6201574545,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,1)(0,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 34.6035153216,
+   "BIC": 39.315730643,
+   "LjungBox_p": 0.4617671944,
+   "Semua_signifikan": false,
+   "p_maks": 0.1789097648,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,1)(0,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": 34.6742468845,
+   "BIC": 40.5645160362,
+   "LjungBox_p": 0.2777003609,
+   "Semua_signifikan": false,
+   "p_maks": 0.5498206746,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,2)(0,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 35.5933334591,
+   "BIC": 39.1274949501,
+   "LjungBox_p": 0.3915687667,
+   "Semua_signifikan": false,
+   "p_maks": 0.5502265376,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,0)(1,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": 35.6768428568,
+   "BIC": 41.5671120085,
+   "LjungBox_p": 0.1715125455,
+   "Semua_signifikan": false,
+   "p_maks": 0.9677981088,
+   "Konvergen": false
+  },
+  {
+   "Model": "(2,0,1)(1,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 6,
+   "AIC": 36.1762904344,
+   "BIC": 43.2446134165,
+   "LjungBox_p": 0.126162665,
+   "Semua_signifikan": false,
+   "p_maks": 0.9262799776,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,2)(1,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 6,
+   "AIC": 36.3009774419,
+   "BIC": 43.369300424,
+   "LjungBox_p": 0.1242738225,
+   "Semua_signifikan": false,
+   "p_maks": 0.9765089551,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,2)(0,1,0)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": 36.5492509834,
+   "BIC": 42.4395201351,
+   "LjungBox_p": 0.2707457282,
+   "Semua_signifikan": false,
+   "p_maks": 0.903505945,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,2)(0,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 6,
+   "AIC": 36.6530210198,
+   "BIC": 43.7213440019,
+   "LjungBox_p": 0.1080753513,
+   "Semua_signifikan": false,
+   "p_maks": 0.9198421445,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,2)(0,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 36.9235769261,
+   "BIC": 41.6357922475,
+   "LjungBox_p": 0.1303711735,
+   "Semua_signifikan": false,
+   "p_maks": 0.7658827284,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,2)(1,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 36.9462114695,
+   "BIC": 41.6584267909,
+   "LjungBox_p": 0.1324128611,
+   "Semua_signifikan": false,
+   "p_maks": 0.7726891676,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,2)(0,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 37.3077919361,
+   "BIC": 42.0200072575,
+   "LjungBox_p": 0.2656627026,
+   "Semua_signifikan": false,
+   "p_maks": 0.7256317071,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,1)(0,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 37.6856902386,
+   "BIC": 41.2198517296,
+   "LjungBox_p": 0.1561082377,
+   "Semua_signifikan": false,
+   "p_maks": 0.9706157653,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,1)(1,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 37.8196408141,
+   "BIC": 41.3538023051,
+   "LjungBox_p": 0.1761766305,
+   "Semua_signifikan": true,
+   "p_maks": 0.0161969687,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,2)(0,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": 38.0210957582,
+   "BIC": 43.9113649099,
+   "LjungBox_p": 0.0767252907,
+   "Semua_signifikan": false,
+   "p_maks": 0.7030412295,
+   "Konvergen": false
+  },
+  {
+   "Model": "(1,0,2)(1,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": 38.087792766,
+   "BIC": 43.9780619178,
+   "LjungBox_p": 0.0898868188,
+   "Semua_signifikan": false,
+   "p_maks": 0.6377070785,
+   "Konvergen": true
+  },
+  {
+   "Model": "(2,0,2)(1,1,1)\u2081\u2082",
+   "order": [
+    2,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 7,
+   "AIC": 38.175620008,
+   "BIC": 46.4219968204,
+   "LjungBox_p": 0.1262860431,
+   "Semua_signifikan": false,
+   "p_maks": 0.9887403359,
+   "Konvergen": false
+  },
+  {
+   "Model": "(0,0,0)(0,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 1,
+   "AIC": 38.4209738759,
+   "BIC": 39.5990277062,
+   "LjungBox_p": 0.1015874402,
+   "Semua_signifikan": true,
+   "p_maks": 0.0,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,2)(1,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": 38.8918508577,
+   "BIC": 44.7821200094,
+   "LjungBox_p": 0.0611860924,
+   "Semua_signifikan": false,
+   "p_maks": 0.9913091945,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,0)(1,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 2,
+   "AIC": 39.0768845716,
+   "BIC": 41.4329922323,
+   "LjungBox_p": 0.0328510665,
+   "Semua_signifikan": false,
+   "p_maks": 0.2533934691,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,0)(0,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 2,
+   "AIC": 39.0768857659,
+   "BIC": 41.4329934266,
+   "LjungBox_p": 0.0328509711,
+   "Semua_signifikan": false,
+   "p_maks": 0.3859563593,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,1)(0,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 39.3700282119,
+   "BIC": 42.904189703,
+   "LjungBox_p": 0.1092098602,
+   "Semua_signifikan": false,
+   "p_maks": 0.276099127,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,1)(0,1,0)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 2,
+   "AIC": 39.5591674994,
+   "BIC": 41.9152751601,
+   "LjungBox_p": 0.1209258942,
+   "Semua_signifikan": false,
+   "p_maks": 0.0922375245,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,1)(1,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 39.6033641286,
+   "BIC": 44.31557945,
+   "LjungBox_p": 0.0904559298,
+   "Semua_signifikan": false,
+   "p_maks": 0.9947064963,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,2)(1,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 6,
+   "AIC": 39.888573027,
+   "BIC": 46.9568960091,
+   "LjungBox_p": 0.0269016709,
+   "Semua_signifikan": false,
+   "p_maks": 0.9874838134,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,0)(0,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 40.1181448358,
+   "BIC": 43.6523063269,
+   "LjungBox_p": 0.0351847712,
+   "Semua_signifikan": false,
+   "p_maks": 0.4851394704,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,0)(1,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 40.2323489546,
+   "BIC": 43.7665104456,
+   "LjungBox_p": 0.0363947504,
+   "Semua_signifikan": false,
+   "p_maks": 0.3786361105,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,0)(0,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    0
+   ],
+   "sorder": [
+    0,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 2,
+   "AIC": 40.2935594626,
+   "BIC": 42.6496671233,
+   "LjungBox_p": 0.0664145911,
+   "Semua_signifikan": false,
+   "p_maks": 0.7863377004,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,1)(0,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "sorder": [
+    0,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 41.050132994,
+   "BIC": 45.7623483154,
+   "LjungBox_p": 0.0313912937,
+   "Semua_signifikan": false,
+   "p_maks": 0.6284113155,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,1)(1,1,0)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    0
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 41.0657391446,
+   "BIC": 45.777954466,
+   "LjungBox_p": 0.0320816027,
+   "Semua_signifikan": false,
+   "p_maks": 0.6222522665,
+   "Konvergen": true
+  },
+  {
+   "Model": "(0,0,0)(1,1,1)\u2081\u2082",
+   "order": [
+    0,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 3,
+   "AIC": 41.0768851322,
+   "BIC": 44.6110466232,
+   "LjungBox_p": 0.0163031254,
+   "Semua_signifikan": false,
+   "p_maks": 0.9999991783,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,0)(1,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    0
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 4,
+   "AIC": 42.0935606029,
+   "BIC": 46.8057759243,
+   "LjungBox_p": 0.0159652016,
+   "Semua_signifikan": false,
+   "p_maks": 0.9971534085,
+   "Konvergen": true
+  },
+  {
+   "Model": "(1,0,1)(1,1,1)\u2081\u2082",
+   "order": [
+    1,
+    0,
+    1
+   ],
+   "sorder": [
+    1,
+    1,
+    1
+   ],
+   "Jumlah_parameter": 5,
+   "AIC": 42.9961230406,
+   "BIC": 48.8863921923,
+   "LjungBox_p": 0.0122212851,
+   "Semua_signifikan": false,
+   "p_maks": 0.992341665,
+   "Konvergen": true
+  }
+ ]
+}

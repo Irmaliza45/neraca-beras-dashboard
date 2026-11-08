@@ -21,8 +21,11 @@ kandidat, lalu `pilih_terbaik()` memilih yang AIC-nya terkecil di antara
 kandidat yang seluruh parameternya signifikan dan residualnya lolos Ljung-Box.
 """
 
+import hashlib
 import itertools
+import json
 import warnings
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -35,6 +38,11 @@ warnings.filterwarnings("ignore")
 
 S = 12          # panjang satu siklus musim (data bulanan)
 ALPHA = 0.05    # taraf signifikansi
+
+# Cache hasil seleksi model. Mengestimasi lebih dari 100 kandidat SARIMAX butuh waktu lama di server,
+# jadi hasilnya disimpan di file ini. Cache otomatis dihitung ulang bila data atau aturan kandidat berubah.
+CACHE = Path(__file__).parent / "hasil" / "cache_seleksi_model.json"
+VERSI_KANDIDAT = "p,q in 0..2; P,Q in 0..1; d=0; D=1; s=12; tambahan luas [2]; v1"
 
 
 # ---------------------------------------------------------------------
@@ -247,6 +255,50 @@ def contoh_hitung(m_prod, m_luas, seri):
 
 
 # ---------------------------------------------------------------------
+# Cache seleksi model
+# ---------------------------------------------------------------------
+def _sidik_data(seri):
+    """Sidik jari data: berubah bila satu angka pun di data berubah."""
+    isi = np.concatenate([seri["P"].values, seri["L"].values, seri["K"].values]).astype(float).tobytes()
+    tanggal = ",".join(seri["idx"].strftime("%Y-%m")).encode()
+    return hashlib.md5(VERSI_KANDIDAT.encode() + tanggal + isi).hexdigest()
+
+
+def _ke_json(tabel):
+    return json.loads(tabel.to_json(orient="records"))
+
+
+def _dari_json(baris):
+    t = pd.DataFrame(baris)
+    t["order"] = t["order"].apply(tuple)
+    t["sorder"] = t["sorder"].apply(tuple)
+    return t
+
+
+def muat_atau_hitung_kandidat(seri, lnP, lnL, paksa=False):
+    sidik = _sidik_data(seri)
+    if not paksa:
+        try:
+            simpan = json.loads(CACHE.read_text(encoding="utf-8"))
+            if simpan.get("sidik") == sidik:
+                return (_dari_json(simpan["kand_prod"]), _dari_json(simpan["kand_luas"]),
+                        _dari_json(simpan["kand_uni"]))
+        except Exception:
+            pass
+    kand_prod = kandidat(lnP, exog=lnL)
+    kand_luas = kandidat(lnL, tambahan=[(([2], 0, 0), (0, 1, 0)), (([2], 0, 0), (1, 1, 0)), (([2], 0, 0), (0, 1, 1))])
+    kand_uni = kandidat(lnP)
+    try:
+        CACHE.parent.mkdir(exist_ok=True)
+        CACHE.write_text(json.dumps({"sidik": sidik, "versi": VERSI_KANDIDAT, "kand_prod": _ke_json(kand_prod),
+                                     "kand_luas": _ke_json(kand_luas), "kand_uni": _ke_json(kand_uni)}, indent=1),
+                         encoding="utf-8")
+    except Exception:
+        pass
+    return kand_prod, kand_luas, kand_uni
+
+
+# ---------------------------------------------------------------------
 # Jalankan semua
 # ---------------------------------------------------------------------
 def jalankan(df):
@@ -260,9 +312,7 @@ def jalankan(df):
         "kor_ln_L_D12": korelogram(beda_musiman(lnL), 12),
     }
 
-    kand_prod = kandidat(lnP, exog=lnL)
-    kand_luas = kandidat(lnL, tambahan=[(([2], 0, 0), (0, 1, 0)), (([2], 0, 0), (1, 1, 0)), (([2], 0, 0), (0, 1, 1))])
-    kand_uni = kandidat(lnP)
+    kand_prod, kand_luas, kand_uni = muat_atau_hitung_kandidat(seri, lnP, lnL)
     best_p, best_l, best_u = pilih_terbaik(kand_prod), pilih_terbaik(kand_luas), pilih_terbaik(kand_uni)
 
     m_prod = fit(lnP, best_p["order"], best_p["sorder"], exog=lnL)

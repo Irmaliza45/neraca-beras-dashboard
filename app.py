@@ -627,7 +627,7 @@ def muat_data():
     return df
 
 
-@st.cache_resource(show_spinner="Menghitung model SARIMAX, sekali saja di awal...")
+@st.cache_resource(show_spinner=False)
 def analisis():
     df = muat_data()
     H = asx.jalankan(df)
