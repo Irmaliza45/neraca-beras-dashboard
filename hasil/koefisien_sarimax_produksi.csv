@@ -1,0 +1,4 @@
+Parameter,Kode,Koefisien,Std_error,z,p_value,Bawah_95,Atas_95
+β (ln(Luas panen)),Luas,1.01314,0.01176,86.11849,0.0,0.99008,1.03619
+φ₁ (AR lag 1),ar.L1,0.90968,0.17106,5.3179,0.0,0.57441,1.24495
+σ² (varians inovasi),sigma2,0.00114,0.00035,3.28632,0.00102,0.00046,0.00182

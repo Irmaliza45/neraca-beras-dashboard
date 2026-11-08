@@ -1,0 +1,5 @@
+Metode,MAE,RMSE,MAPE
+Naif musiman (sama dengan tahun lalu),16619.75,25704.36,47.69
+"SARIMA tanpa X (2,0,0)(1,1,0)₁₂",20801.97,34731.7,61.98
+SARIMAX ex ante (luas panen diramal),17385.45,27647.22,49.54
+SARIMAX ex post (luas panen aktual),2298.04,3291.15,7.17

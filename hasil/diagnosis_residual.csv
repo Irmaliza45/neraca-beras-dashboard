@@ -1,0 +1,11 @@
+Asumsi,Uji,Statistik,p_value,Terpenuhi,Model
+Non-autokorelasi,Ljung-Box lag 6,4.4498,0.4866,True,SARIMAX produksi
+Non-autokorelasi,Ljung-Box lag 12,11.1088,0.4342,True,SARIMAX produksi
+Normalitas,Shapiro-Wilk,0.8793,0.0081,False,SARIMAX produksi
+Normalitas,Jarque-Bera,7.4652,0.0239,False,SARIMAX produksi
+Tidak ada efek ARCH,ARCH-LM (lag 4),3.163,0.5309,True,SARIMAX produksi
+Non-autokorelasi,Ljung-Box lag 6,5.1069,0.403,True,SARIMA luas panen
+Non-autokorelasi,Ljung-Box lag 12,15.6751,0.1536,True,SARIMA luas panen
+Normalitas,Shapiro-Wilk,0.9581,0.4018,True,SARIMA luas panen
+Normalitas,Jarque-Bera,1.3876,0.4997,True,SARIMA luas panen
+Tidak ada efek ARCH,ARCH-LM (lag 4),2.2713,0.686,True,SARIMA luas panen

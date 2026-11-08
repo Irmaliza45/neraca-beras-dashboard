@@ -1,0 +1,8 @@
+Uji,Model 1 (ton),Model 2 (log)
+Shapiro-Wilk,Tidak,Ya
+Jarque-Bera,Tidak,Ya
+Breusch-Pagan,Tidak,Ya
+Durbin-Watson,Tidak,Ya
+Breusch-Godfrey (lag 1),Tidak,Ya
+R-squared,0.8893,0.8865
+Adjusted R-squared,0.8316,0.8273

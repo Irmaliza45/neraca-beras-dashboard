@@ -1,0 +1,3 @@
+Parameter,Kode,Koefisien,Std_error,z,p_value,Bawah_95,Atas_95
+φ₂ (AR lag 2),ar.L2,-0.48241,0.23703,-2.03522,0.04183,-0.94698,-0.01784
+σ² (varians inovasi),sigma2,0.20845,0.08029,2.59612,0.00943,0.05108,0.36583
